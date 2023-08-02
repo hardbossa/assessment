@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>あなたのいいところ診断</title>
+    <meta property="og:description" content="N予備校プログラミング入門コースで制作した、「あなたのいいところ診断」サイトです。">
+    <meta name="twitter:card" content="summary">
+    <meta property="og:url" content="https://hardbossa.github.io/assessment/assessment.html">
+    <meta property="og:title" content="あなたのいいところ診断">
     <link rel="stylesheet" href="assessment.css">
 </head>
 <body>
@@ -10,13 +14,8 @@
     <p>診断したい名前を入れて下さい。</p>
     <input type="text" id="user-name" size="40" maxlength="20" placeholder="名前を入れてみてください">
     <button id="assessment">診断する</button>
-
     <div id="result-area"></div>
-
-    <div id="tweet-area">
-            
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </div>
+    <div id="tweet-area"></div>
     <script src="assessment.js"></script>
 </body>
 </html>
